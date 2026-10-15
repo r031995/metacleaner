@@ -1,0 +1,23 @@
+# Сборка .NET
+bin/
+obj/
+dist/
+publish/
+*.user
+*.suo
+.vs/
+.vscode/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Результаты прогона на образцах
+tests/samples/cleaned/
+*.bak
+
+# Логи и локальные файлы
+*.log
+.dotnet/
